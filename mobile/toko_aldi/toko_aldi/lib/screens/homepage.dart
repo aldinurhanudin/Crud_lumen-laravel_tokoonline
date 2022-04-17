@@ -48,7 +48,8 @@ class _HomePageState extends State<HomePage> {
           child: Icon(Icons.add),
         ),
         appBar: AppBar(
-          title: Text('Rollo Store'),
+          title: Text('Zayn Shoes Store'),
+          backgroundColor: Colors.red,
         ),
         body: FutureBuilder(
             future: getProducts(),
